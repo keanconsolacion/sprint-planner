@@ -1,0 +1,91 @@
+{
+  "action": {
+    "join": "Join",
+    "createInstead": "Create instead",
+    "enterRoom": "Enter room",
+    "createRoom": "Create room",
+    "chooseAvatar": "Choose avatar",
+    "startVoting": "Start voting",
+    "startAnother": "Start another",
+    "endVoting": "End voting",
+    "copyInviteLink": "Copy invite URL",
+    "createNewRoom": "Create new room"
+  },
+  "joinRoomCard": {
+    "title": "Join a room",
+    "description": "Join an existing room.",
+    "fields": {
+      "nickname": {
+        "label": "Nickname",
+        "placeholder": "Enter your nickname"
+      },
+      "lobbyId": {
+        "label": "Lobby id"
+      }
+    },
+    "snackbar": {
+      "joinedRoomSuccess": "Joined room",
+      "joinedRoomSuccessDescription": "Successfully joined \"{{roomName}}\".",
+      "joinedRoomFail": "Failed to join room",
+      "joinedRoomFailDescription": "The room doesn't exist."
+    }
+  },
+  "createRoomCard": {
+    "title": "New room",
+    "description": "Generate a room for your team.",
+    "fields": {
+      "nickname": {
+        "label": "Nickname",
+        "placeholder": "Enter your nickname"
+      },
+      "roomName": {
+        "label": "Room name",
+        "placeholder": "Enter the room name"
+      },
+      "pointValues": {
+        "label": "Point values",
+        "fib": "Fibonacci",
+        "scrum": "Scrum",
+        "incremental": "Incremental",
+        "halfIncremental": "Half Incremental"
+      }
+    }
+  },
+  "avatarSelector": {
+    "title": "Your avatar",
+    "attribution": "Icons made by Freepik from www.flaticon.com"
+  },
+  "chart": {
+    "title": "Voting summary",
+    "votes": "Votes: {{count}}",
+    "average": "Average: {{average}}",
+    "median": "Median: {{median}}"
+  },
+  "footer": {
+    "title": "© 2024 Ke'an Martin Consolacion. All Rights Reserved."
+  },
+  "inviteCard": {
+    "title": "Share link",
+    "description": "Generate an invite link for others to join."
+  },
+  "navigationBar": {
+    "title": "SprintPlanner"
+  },
+  "pointSelector": {
+    "title": "Preview",
+    "title_INITIAL": "Awaiting start",
+    "title_STARTED": "Voting in progress",
+    "title_ENDED": "Voting closed",
+    "description_INITIAL": "Waiting for someone to initiate voting.",
+    "description_STARTED": "Voting has started. Select your vote now."
+  },
+  "timer": {
+    "elapsed": "Time elapsed: {{minutes}}m {{seconds}}s"
+  },
+  "error": {
+    "title": "Error",
+    "description": "It's not you, it's us. Please try again later.",
+    "required": "This field is required",
+    "invalid": "Invalid value"
+  }
+}
